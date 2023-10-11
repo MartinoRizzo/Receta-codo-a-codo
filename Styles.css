@@ -1,0 +1,74 @@
+
+
+body{
+    background-color: rgba(53, 43, 43, 0.651);
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+} 
+
+#chef{
+    height: 120px;
+    width: 120px; 
+}
+
+#chef2{
+    height: 120px;
+    width: 120px; 
+    margin-left: 55px;
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.container .cuerpo,
+.container .ingredientes,
+.container .preparacion,
+.container .video,
+.container header,
+.container footer{
+    background: antiquewhite;
+    padding: 20px;
+    border-radius: 2;
+}
+
+.container header{
+    background-color: darkslategray;
+    color: white;
+    display: flex;
+    grid-template-rows: 1fr auto;
+    gap: 250px;
+    border-style: solid;
+    
+}
+
+
+
+.container h2{
+    text-align: center;
+}
+
+.container footer{
+    background-color: darkslategrey;
+    color: white;
+    text-align: center;
+    border-style: solid;
+}
+
+.video{
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: chocolate;
+}
+
